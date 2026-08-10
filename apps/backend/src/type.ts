@@ -11,7 +11,7 @@ declare global {
 export type Env = {
     // Config
     NODE_ENV: "development" | "production" | "test"
-    PATH: string
+    DATABASE_URL: string
     PORT: string
 
     // Secret

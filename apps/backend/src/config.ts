@@ -3,7 +3,7 @@ import { Env } from "./type"
 
 const config = {
     environment: env<Env, "NODE_ENV">("NODE_ENV"),
-    path: env<Env>("PATH", false) ?? ":memory:",
+    url: env<Env>("DATABASE_URL"),
     port: Number(env<Env>("PORT", false) ?? 7200),
     secret: {
         cookie: env<Env>("COOKIE_SECRET"),
