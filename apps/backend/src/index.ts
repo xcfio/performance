@@ -15,11 +15,15 @@ export const fastify = Fastify({
     schemaErrorFormatter
 }).withTypeProvider<TypeBoxTypeProvider>()
 
-export async function main() {
+export async function build() {
     await Plugin(fastify)
     Routes(fastify)
     Hooks(fastify)
+    return fastify
+}
 
+export async function main() {
+    const fastify = await build()
     await fastify.listen({ host: "0.0.0.0", port: config.port })
     console.log(`Server listening at http://localhost:${config.port}`)
 }
