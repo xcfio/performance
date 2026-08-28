@@ -33,6 +33,6 @@
     "devDependencies": {
         "@types/node": "^26.3.0",
         "drizzle-kit": "1.0.0-rc.5-ab785fc",
-        "rolldown": "^1.2.4"
+        "rolldown": "^1.2.5"
     }
 }
