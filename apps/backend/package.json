@@ -23,7 +23,7 @@
         "@fastify/type-provider-typebox": "^6.1.0",
         "@repo/schema": "workspace:*",
         "@repo/utils": "workspace:*",
-        "@scalar/fastify-api-reference": "^1.65.1",
+        "@scalar/fastify-api-reference": "^1.66.1",
         "drizzle-orm": "1.0.0-rc.5-169397b",
         "fastify": "^5.12.1",
         "fastify-utils": "^0.0.2",
