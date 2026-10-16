@@ -60,8 +60,8 @@ importers:
         specifier: ^9.9.1
         version: 9.9.1
       '@fastify/type-provider-typebox':
-        specifier: ^6.1.0
-        version: 6.1.0(typebox@1.3.35)
+        specifier: ^6.3.0
+        version: 6.3.0(ajv-formats@3.0.1(ajv@8.20.0))(typebox@1.3.35)
       '@repo/schema':
         specifier: workspace:*
         version: link:../../lib/schema
@@ -626,10 +626,11 @@ packages:
   '@fastify/swagger@9.9.1':
     resolution: {integrity: sha512-RlpdOjU6NC29799y5v0beSlmEu8spEbx7cYNzVaCCihEM0xh9hIdxSQDzom2U9W9ar0KuMA6JnXuFCrcuz9B5A==}
 
-  '@fastify/type-provider-typebox@6.1.0':
-    resolution: {integrity: sha512-k29cOitDRcZhMXVjtRq0+caKxdWoArz7su+dQWGzGWnFG+fSKhevgiZ7nexHWuXOEEQzgJlh6cptIMu69beaTA==}
+  '@fastify/type-provider-typebox@6.3.0':
+    resolution: {integrity: sha512-zsaoyyAdNvkuf2HOMJvf7vykRTFA/1M9J3HC0vHNtFhxNhwL36iDJl/2Tpl0XzMR0f0aATSeDV20ChH720wXYQ==}
     peerDependencies:
-      typebox: ^1.0.13
+      ajv-formats: ^3.0.1
+      typebox: ^1.1.14
 
   '@floating-ui/core@1.8.0':
     resolution: {integrity: sha512-0CIZ5itps/8x7BG8dEIhs53BvCUH2PCoogtakwRTut+Arm58sJooJ0AuZhLw2HJYIR5cMLNPBSS728sPho2khQ==}
@@ -4793,8 +4794,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@fastify/type-provider-typebox@6.1.0(typebox@1.3.35)':
+  '@fastify/type-provider-typebox@6.3.0(ajv-formats@3.0.1(ajv@8.20.0))(typebox@1.3.35)':
     dependencies:
+      ajv-formats: 3.0.1(ajv@8.20.0)
       typebox: 1.3.35
 
   '@floating-ui/core@1.8.0':
