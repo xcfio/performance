@@ -78,8 +78,8 @@ importers:
         specifier: ^5.12.7
         version: 5.12.7
       fastify-utils:
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^0.0.4
+        version: 0.0.4
       postgres:
         specifier: ^3.4.9
         version: 3.4.9
@@ -434,6 +434,10 @@ packages:
   '@emnapi/runtime@1.11.3':
     resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
 
+  '@fastify-utils/error@1.0.2':
+    resolution: {integrity: sha512-JOJpWGGvGYjThKa+BYdOBzzuWsdKkE6cSP5jH0/FF2S7Nouta6/KWadGhT9E9wN2Da09vNoIlvS0Q+UbC4ueEg==}
+    engines: {node: '>=24'}
+
   '@fastify/ajv-compiler@4.0.7':
     resolution: {integrity: sha512-VP0yIfwlc1ohj733keYDqyHm1VWeP9VQxYomunhr90jkC4aNNibbkrRiaNgPgqj1ORxUenILR4qzA/ppYBNAtQ==}
 
@@ -445,9 +449,6 @@ packages:
 
   '@fastify/deepmerge@3.2.2':
     resolution: {integrity: sha512-155eqA/WMQdN6gUD4RrhS2K0Pcz2Ou9pQ86L0sipOpP9ONbTA6oYw/hW4VdBjR4egcDHqmWUK9x80oUX7S1mDQ==}
-
-  '@fastify/error@4.2.0':
-    resolution: {integrity: sha512-RSo3sVDXfHskiBZKBPRgnQTtIqpi/7zhJOEmAxCiBcM7d0uwdGdxLlsCaLzGs8v8NnxIRlfG0N51p5yFaOentQ==}
 
   '@fastify/error@4.2.1':
     resolution: {integrity: sha512-MYBumuIwP+5MIpXSyKm6/o1Eigcoij186lWUssX3LH5U8KWqU0ktZhzC4CErIX9EJeQeRGI+zJZQWakBlFbUcg==}
@@ -2745,9 +2746,9 @@ packages:
   fastify-plugin@6.0.1:
     resolution: {integrity: sha512-4wW4RxSmvPXLrh5mgQEiu43qU3bw44N2ss4FTkTkQIbprUhE+/s43QX0j/ttcztdWK7PEkHqVthdc5GdEGDvjA==}
 
-  fastify-utils@0.0.2:
-    resolution: {integrity: sha512-zl9jezXcsvK0HcmMaH+hDfwmu/4qlm7MkInLW6MIfukiGgtzqJVxEazTds6P/rkOdSLGb45EPRc/dh4vXaPOpw==}
-    engines: {node: '>=22'}
+  fastify-utils@0.0.4:
+    resolution: {integrity: sha512-32pLRRhUswxqVHeLMwljrGYQYiThC10CDHGZhRlKxa9lvEN6w3xM837Cvuf2+Xsu4WpMXltiIHz0Ac/iV3pq9Q==}
+    engines: {node: '>=24'}
 
   fastify@5.12.7:
     resolution: {integrity: sha512-v4pEPsTRPuqlDIYiQFB+BHjVN4SdHX9u0ABk0ZDUKbbdY1vsNryUd1j4Z+jQEZajvYIVk047Kimva9/AJ79GYw==}
@@ -3974,6 +3975,9 @@ packages:
   typebox@1.3.35:
     resolution: {integrity: sha512-gNcaAKuh/4JpDHHyo9AfXOtwlpVUMIHhhdJBEY+1x6rnRFB9usGGo6QfnwAadVbO7J6AptAZwGsi1ZMEObIS3g==}
 
+  typebox@1.4.3:
+    resolution: {integrity: sha512-u3nyf7ZciAv1GOijVpI0TDt9At5wmEi7lSHSlRrnjuThv1DcB7fgGBqqrz+fGZ54jAfTpOOX0JXwxSIg3pnxQA==}
+
   typescript@7.0.2:
     resolution: {integrity: sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==}
     engines: {node: '>=16.20.0'}
@@ -4458,6 +4462,8 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
+  '@fastify-utils/error@1.0.2': {}
+
   '@fastify/ajv-compiler@4.0.7':
     dependencies:
       ajv: 8.20.0
@@ -4475,8 +4481,6 @@ snapshots:
       toad-cache: 3.7.4
 
   '@fastify/deepmerge@3.2.2': {}
-
-  '@fastify/error@4.2.0': {}
 
   '@fastify/error@4.2.1': {}
 
@@ -6362,11 +6366,11 @@ snapshots:
 
   fastify-plugin@6.0.1: {}
 
-  fastify-utils@0.0.2:
+  fastify-utils@0.0.4:
     dependencies:
-      '@fastify/error': 4.2.0
+      '@fastify-utils/error': 1.0.2
       fastify: 5.12.7
-      typebox: 1.3.35
+      typebox: 1.4.3
 
   fastify@5.12.7:
     dependencies:
@@ -7581,6 +7585,8 @@ snapshots:
       mime-types: 3.0.2
 
   typebox@1.3.35: {}
+
+  typebox@1.4.3: {}
 
   typescript@7.0.2:
     optionalDependencies:
