@@ -69,8 +69,8 @@ importers:
         specifier: workspace:*
         version: link:../../lib/utils
       '@scalar/fastify-api-reference':
-        specifier: ^1.77.0
-        version: 1.77.0
+        specifier: ^1.79.0
+        version: 1.79.0
       drizzle-orm:
         specifier: 1.0.0-rc.5
         version: 1.0.0-rc.5(postgres@4.1.0)(typebox@1.4.6)(zod@4.6.7)
@@ -1805,32 +1805,32 @@ packages:
   '@rolldown/pluginutils@1.1.0':
     resolution: {integrity: sha512-K+NU2HDCEem4sClgHH4ZZXwdJeNFkJo+hRk479DIwdIviAPN2hFJH1KHHwg8CxHQXvi0M5XY4deTXINfIiSG6w==}
 
-  '@scalar/client-side-rendering@0.4.17':
-    resolution: {integrity: sha512-RXoh55Dpizzgj/jIsgH6vqG22YySeuc5hIHQuu+5hgo6Etj6Rg51jljlhZCcOgLh34Yw3n6994wZh4HkXY8QOw==}
+  '@scalar/client-side-rendering@0.4.20':
+    resolution: {integrity: sha512-WZPDnAii2h4o9pjuiLxngkIGbdLpTTEvB9qyTJnJ2A0Tc83892tgZxIlttIRo6sdJHXG8R5JUznbOhAV/CFT5A==}
     engines: {node: '>=22'}
 
-  '@scalar/fastify-api-reference@1.77.0':
-    resolution: {integrity: sha512-kjJbfwl8swk6ViDr8VAu8zgTpxfsYjRZWvoAtVs0fmDQAftpdtABIVAtXV+Gzc0HIasKTBjmWjIJNA9k2pBp6Q==}
+  '@scalar/fastify-api-reference@1.79.0':
+    resolution: {integrity: sha512-3k/WFetRGwFCBVPR2IEvLxQm74PhI8pt0ikeTjq3UTOXRwni6dt9c+H2M45nan8oxEBEiOs2nlsA0NO/lYJ9rw==}
     engines: {node: '>=22'}
 
-  '@scalar/helpers@0.17.0':
-    resolution: {integrity: sha512-/XzBJDB/nr/Nzkx/a8ow0WdWb5LIb6KsWrjv7TsQYolkCxOM6ZT+iEJ635QssQG33wEzAK0os5Xbiub6RUU+Ng==}
+  '@scalar/helpers@0.18.0':
+    resolution: {integrity: sha512-uvOhlUbqvnJNjvnsSr2CwZLQgT1qW3ZIBd11Ntg/DHL3nswVAE8f9OppcYWG4LLH0c7nxY+CPvDbmwqlp0rlrA==}
     engines: {node: '>=22'}
 
-  '@scalar/json-magic@0.18.0':
-    resolution: {integrity: sha512-mz/H7H9gP2jZvViQS2cyOmqrBvLQwN5UdJ+5k77yBxV25D/6jh0BfGubQyxNwAqA62TP8JnEiIQ4gzbsMZvESw==}
+  '@scalar/json-magic@0.20.0':
+    resolution: {integrity: sha512-CWlpGQneIGzqJgBolRdL2ieTBtkOc136ICNT7XFlJPuLAqYa1fNeJA2pL1VP4NSd90Nfg5D0sQZg3ky0Ktb2cQ==}
     engines: {node: '>=22.19.0'}
 
-  '@scalar/schemas@0.16.1':
-    resolution: {integrity: sha512-Dw/7ciVbUw17/z+MSXhn3LbA7czX8XSRJE9uQHHOg6SkVaGd7lMAkVPQfxp7lhraItqRNMDMrxNLWkx01qXkTA==}
+  '@scalar/schemas@0.18.0':
+    resolution: {integrity: sha512-4+dnI6SG1FX3kOGu3C/Ykq1uV82QFWq7qmT6Mbwb5WtybcOQNkSar8MoG/5zQbwUf92Frp8AtC6Eha33JN+6LA==}
     engines: {node: '>=22'}
 
-  '@scalar/types@0.27.0':
-    resolution: {integrity: sha512-OoU/6O7ooJyaRywL1DN4xoPgPYjCURohwN6iGQ9WNmexNBIS504BW3s9gmYdg8CyJ/gcuThaFbdx45ICuBsI2g==}
+  '@scalar/types@0.29.0':
+    resolution: {integrity: sha512-6o1I5dplihEaXm6pU4/QBUXebmEbbjDEHx0qYgFWoHHM/QKX4OCv1f2ebeMoT8EVJviZmt03PfnFdkAMup1m5g==}
     engines: {node: '>=22'}
 
-  '@scalar/validation@0.6.7':
-    resolution: {integrity: sha512-xvmeYb0LOg9B598oVA/1fs9MvnMdtWjQYG3v2Wgftewizr7tQjsdDYT1TQahlDzqRG+r+ml6zlSkPrFiCE5jHQ==}
+  '@scalar/validation@0.6.8':
+    resolution: {integrity: sha512-rolYOBLCfK/BnGA4EP723GblPbFAoPMnk3uORFYf9Ng4LVx1cPfsrldJJsJDW5yA+cPHHFc0/oms8UcIfPhZhQ==}
     engines: {node: '>=20'}
 
   '@sec-ant/readable-stream@0.4.1':
@@ -3718,8 +3718,8 @@ packages:
     resolution: {integrity: sha512-03KrMbjIFDWQR5RNPrSw3bd1r12JpyFQl9/yxjUbJtqkjmllqC5lFjZh6ujeuJCKr8EOQvRW872Oy/az+nLYxg==}
     engines: {node: '>=20.18.1'}
 
-  undici@8.12.3:
-    resolution: {integrity: sha512-+fdndUTwBP86cVjihTp21hZHo7d6oj1c/47XPA3lL8mM0XHs+C4EkcjmgRsFnFk2f/UONGDy9ItBItmXsLOQHw==}
+  undici@8.12.4:
+    resolution: {integrity: sha512-8Mx+uNKKER2bA4AdtedkqRbwUCIJFr2nJckXRe5yrDqzePqwLP7VNcctN8/XdmDSbF7mS+jJKIszlL+vbam1VA==}
     engines: {node: '>=22.19.0'}
 
   unicorn-magic@0.3.0:
@@ -5362,44 +5362,44 @@ snapshots:
 
   '@rolldown/pluginutils@1.1.0': {}
 
-  '@scalar/client-side-rendering@0.4.17':
+  '@scalar/client-side-rendering@0.4.20':
     dependencies:
-      '@scalar/helpers': 0.17.0
-      '@scalar/schemas': 0.16.1
-      '@scalar/types': 0.27.0
-      '@scalar/validation': 0.6.7
+      '@scalar/helpers': 0.18.0
+      '@scalar/schemas': 0.18.0
+      '@scalar/types': 0.29.0
+      '@scalar/validation': 0.6.8
 
-  '@scalar/fastify-api-reference@1.77.0':
+  '@scalar/fastify-api-reference@1.79.0':
     dependencies:
-      '@scalar/client-side-rendering': 0.4.17
-      '@scalar/json-magic': 0.18.0
+      '@scalar/client-side-rendering': 0.4.20
+      '@scalar/json-magic': 0.20.0
       fastify-plugin: 6.0.1
       github-slugger: 2.0.0
       yaml: 2.9.1
 
-  '@scalar/helpers@0.17.0': {}
+  '@scalar/helpers@0.18.0': {}
 
-  '@scalar/json-magic@0.18.0':
+  '@scalar/json-magic@0.20.0':
     dependencies:
-      '@scalar/helpers': 0.17.0
+      '@scalar/helpers': 0.18.0
       pathe: 2.0.3
-      undici: 8.12.3
+      undici: 8.12.4
       yaml: 2.9.1
 
-  '@scalar/schemas@0.16.1':
+  '@scalar/schemas@0.18.0':
     dependencies:
-      '@scalar/helpers': 0.17.0
-      '@scalar/types': 0.27.0
-      '@scalar/validation': 0.6.7
+      '@scalar/helpers': 0.18.0
+      '@scalar/types': 0.29.0
+      '@scalar/validation': 0.6.8
 
-  '@scalar/types@0.27.0':
+  '@scalar/types@0.29.0':
     dependencies:
-      '@scalar/helpers': 0.17.0
+      '@scalar/helpers': 0.18.0
       nanoid: 5.1.16
       type-fest: 5.10.0
       zod: 4.6.7
 
-  '@scalar/validation@0.6.7': {}
+  '@scalar/validation@0.6.8': {}
 
   '@sec-ant/readable-stream@0.4.1': {}
 
@@ -7020,7 +7020,7 @@ snapshots:
 
   undici@7.30.1: {}
 
-  undici@8.12.3: {}
+  undici@8.12.4: {}
 
   unicorn-magic@0.3.0: {}
 
