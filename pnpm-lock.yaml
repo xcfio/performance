@@ -51,8 +51,8 @@ importers:
         specifier: ^11.4.3
         version: 11.4.3
       '@fastify/jwt':
-        specifier: ^10.2.7
-        version: 10.2.7
+        specifier: ^10.2.8
+        version: 10.2.8
       '@fastify/rate-limit':
         specifier: ^11.2.2
         version: 11.2.2
@@ -472,8 +472,8 @@ packages:
   '@fastify/forwarded@3.1.2':
     resolution: {integrity: sha512-89WiRG+hW3VQSfCwg4Hb8b43PeyEX15K5+lEfsZ4EUth/FyOjS/lv8HsVuswUNXWiSnxMGNouE/fq/0w3VumHQ==}
 
-  '@fastify/jwt@10.2.7':
-    resolution: {integrity: sha512-NU0yXeoQdcK2jbQZPl1JE/FoRSEeNWRlSqmmnXEXg7gXC964FIVA0XeKGbFaTJ+O7wyg9yfEfc0TCCrGQKfcgw==}
+  '@fastify/jwt@10.2.8':
+    resolution: {integrity: sha512-JHw6aGBRr39FnHNykYeUWbvhRY7EKietGtYf+aHPRzOQuqlhub4Us4r/kze5lCB234wy+/vArlpM01SPcrPvEw==}
 
   '@fastify/merge-json-schemas@0.2.2':
     resolution: {integrity: sha512-d/gx9sRbUCVgGRGzma46wLcwiY8noTqO2Nmjg/vbTARxHRE5bdh5PIL8s97Lt1X7ScRWRW52eVYxwIoPwIdVUA==}
@@ -2640,8 +2640,8 @@ packages:
   fast-json-stringify@7.2.1:
     resolution: {integrity: sha512-GU16K+1IH8XSJ/suUaX/ONlJ5glCFvmBdra2nGI2ZGpBBXzqM/r/lzO02gjHYcRad1KKj6WvC+/RROggpg6acg==}
 
-  fast-jwt@6.3.6:
-    resolution: {integrity: sha512-+4ocTOidYITX4MlC7UUISVj62aaMMMqLGQME1y1/XFSu8PaCVNfAc3oSxQ7EKXu6FF0POH/2ixwXzCgrLaTgWw==}
+  fast-jwt@6.3.7:
+    resolution: {integrity: sha512-Z1yunvhXRD74kttxDTg5NAVq4XexFRVlv78/GzUlkEwt0BRwUCVju2uWJ8TAcy95VA7lXyX93R+AKgZCVPitnQ==}
     engines: {node: '>=20'}
 
   fast-querystring@1.1.2:
@@ -3118,8 +3118,8 @@ packages:
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
-  mnemonist@0.40.6:
-    resolution: {integrity: sha512-c4mbin5HCz77Srw1L3nwThCH/0hLVYuY3oMF2plP2tKfp/gqzSgHP63qRUOpL8jutYWNNCr49LUlKSt7exkaww==}
+  mnemonist@0.40.8:
+    resolution: {integrity: sha512-tebbu8e/W45Nz7USfGcmnHUiOcNsXa9Mow8eb0UPwOk3gu6grw0/2+SefXBJCgDQpE9mdn7dNUMJBra9mcRUVw==}
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -4216,11 +4216,11 @@ snapshots:
 
   '@fastify/forwarded@3.1.2': {}
 
-  '@fastify/jwt@10.2.7':
+  '@fastify/jwt@10.2.8':
     dependencies:
       '@fastify/error': 4.2.1
       '@lukeed/ms': 2.0.2
-      fast-jwt: 6.3.6
+      fast-jwt: 6.3.7
       fastify-plugin: 6.0.1
       steed: 1.1.3
 
@@ -5952,12 +5952,12 @@ snapshots:
       json-schema-ref-resolver: 3.0.1
       rfdc: 1.4.1
 
-  fast-jwt@6.3.6:
+  fast-jwt@6.3.7:
     dependencies:
       '@lukeed/ms': 2.0.2
       asn1.js: 5.4.1
       ecdsa-sig-formatter: 1.0.11
-      mnemonist: 0.40.6
+      mnemonist: 0.40.8
       safe-regex2: 5.1.2
 
   fast-querystring@1.1.2:
@@ -6345,7 +6345,7 @@ snapshots:
 
   minimist@1.2.8: {}
 
-  mnemonist@0.40.6:
+  mnemonist@0.40.8:
     dependencies:
       obliterator: 2.0.5
 
